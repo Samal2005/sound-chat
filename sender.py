@@ -148,8 +148,8 @@ def main():
                        help='Message to send (default: HELLO)')
     parser.add_argument('--sample-rate', type=int, default=44100,
                        help='Audio sample rate (default: 44100)')
-    parser.add_argument('--bit-duration', type=float, default=0.1,
-                       help='Duration of each bit in seconds (default: 0.1)')
+    parser.add_argument('--bit-duration', type=float, default=0.2,
+                       help='Duration of each bit in seconds (default: 0.2)')
     
     args = parser.parse_args()
     
@@ -167,3 +167,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
